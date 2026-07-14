@@ -11,8 +11,8 @@
     "db:migrate:remote": "wrangler d1 migrations apply eva-homestead-checklist --remote"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260701.0",
+    "@cloudflare/workers-types": "^5.20260714.1",
     "typescript": "^5.8.0",
-    "wrangler": "^4.0.0"
+    "wrangler": "^4.110.0"
   }
 }
