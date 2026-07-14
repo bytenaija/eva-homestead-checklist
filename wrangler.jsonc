@@ -3,6 +3,12 @@
 	"name": "eva-homestead-checklist",
 	"main": "src/index.ts",
 	"compatibility_date": "2026-07-14",
+	 "routes": [
+    {
+      "pattern": "checklist.evaincanada.com",
+      "custom_domain": true
+    }
+  ],
 	"assets": {
 		"directory": "./public",
 		"binding": "ASSETS",
